@@ -24,7 +24,7 @@
         <ul>
             <li><a href="/index.html">Home</a></li>
             <li class="dropdown">
-                <a href="#">About<span class="dropdown-icon">▼</span></a>
+                <a href="index.html#about">About<span class="dropdown-icon">▼</span></a>
                 <ul class="dropdown-menu">
                     <li><a href="index.html#background">Background</a></li>
                     <li><a href="index.html#Growth">Growth Story</a></li>
@@ -58,14 +58,85 @@
         <p>Sonitech Solutions specializes in providing top-notch CCTV installation services. Our expert team ensures a
             seamless setup, offering state-of-the-art security solutions for your home or business.</p>
 
-        <img src="cctv_image1.jpg" alt="CCTV Installation">
-        <img src="cctv_image2.jpg" alt="Security Camera">
+        <img src="cctv1.jpg" alt="CCTV Installation">
+        <hr>
+        <img src="cctv 2.jpg" alt="Security Camera">
 
         <h2>Pricing Information</h2>
 
         <p>Contact us for a personalized quote based on your specific requirements. We offer competitive pricing and
             tailored solutions to meet your security needs.</p>
+        <div id="price">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Package</th>
+                        <th>Number of Cameras</th>
+                        <th>Price (Ksh.)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>21,650</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>24,900</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>30,150</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>6</td>
+                        <td>36,200</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>7</td>
+                        <td>40,450</td>
+                    </tr>
 
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div id="packages">
+            <p id="pack">
+                The packages includes: <br />
+                <strong>
+                    <li>2 mega pixels High definition cameras</li><br />
+                    <li> 1080P Digital Video Recorder(DVR)</li><br />
+                    <li>surveillance Hard disk Drive</li><br />
+                    <li> Cat 6 Cable</li><br />
+                    <li>Power supply</li><br />
+                    <li>Video baluns</li><br />
+                    <li> Adaptor boxes</li><br />
+                    <li>HDMI cable</li><br />
+                    <li>Other accessories (power jacks, trunkings, conta glue, cable ties, tapes, etc)</li><br />
+                </strong>
+            <p id="nb">
+                NB: We charge 1,500 per camera for installation <br>
+                Monitor/TV screen is not included in the package</p>
+            </p>
+        </div> <img src="new1.png" alt="Security Camera">
+        <section>
+            <label for="cameraCount">Below is calculator that estimates the price depending <br>on the number of cameras
+                you
+                want:</label><br>
+            <label for="cameraCount">Enter the number of cameras:</label><br>
+            <input type="number" id="cameraCount" placeholder="e.g., 10" step="1" min="1" required>
+
+            <button onclick="calculateCost()">Calculate Cost</button>
+
+            <result id="costResult"></result>
+        </section>
         <h2>Key Considerations for CCTV Installation</h2>
 
         <ul>
@@ -85,19 +156,51 @@
             <li>Improved storage solutions for longer data retention.</li>
             <li>Integration with smart home or office systems.</li>
         </ul>
+        <h2>Remote access </h2>
 
+        <p>Stay awoke and alert with the new remote access and surveillance:</p>
+
+        <ul>
+            <li>Enhanced camera technology for better image quality.</li>
+            <li>Improved storage solutions for longer data retention.</li>
+            <li>Integration with smart home or office systems.</li>
+        </ul>
+        <img src="new3.png" alt="Security Camera">
         <h2>Contact Information</h2>
 
         <p>For inquiries and quotations, please contact:</p>
 
-        <p><strong>John Doe</strong><br>
-            Director of CCTV Installation<br>
-            Email: john.doe@sonitech.com<br>
-            Phone: +1 (123) 456-7890</p>
+        <p>
+            <img id="PS1" src="ps1.jpg" alt="john doe"><strong> <br>John Doe</strong><br>
+        <p class="">Director of CCTV Installation<br></p>
+        <p>Email: john.doe@sonitech.com<br></p>
+        <p> Phone: +254798 251 352</p>
+        </p>
+    </section>
+    <section>
+        <div class="video-container">
+            <video id="video1" controls>
+                <source src="vid1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <hr>
+        <div class="video-container">
+            <video id="video2" controls>
+                <source src="vid2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <hr>
+        <div class="video-container">
+            <video id="video3" controls>
+                <source src="vid3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </section>
 
-
-    <script src="app.js"></script>
+    <script src="app2.js"></script>
 </body>
 <footer>
     <p>&copy; 2024 Sonitech Solutions. All rights reserved.</p>
