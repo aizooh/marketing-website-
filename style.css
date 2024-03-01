@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+#head{
+    position: relative;
+    align-items: center;
+    font:"Ojuju", sans-serif;
+    text-align: center;
+    size: 2rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+#t2{
+    text-align: center;
+}
+#t1{
+    text-align: center;
+}
+#home1{
+    font-size:2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:rgb(9, 195, 216);
+}
+.home{
+    text-align: center;
+    padding: 10px;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #0066cc;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+#h22{
+    text-align: center;
+}
+#soni{
+    text-decoration: underline;
+}
