@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Marketing Website</title>
+    <title>Sonitech Solutions</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,7 +14,7 @@
         <div id="head">
             <h1 id="soni">Sontech Solutions</h1>
             <p>Empowering Innovation, Enriching Trust:
-                <hr><strong> Sontech Solutions</strong>,
+                <hr><strong> <i>Sontech Solutions</i></strong>,
                 <hr> Your Authentic Source for
                 Quality Tech.
             </p>
@@ -22,16 +22,47 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About<span class="dropdown-icon">▼</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="index.html#background">Background</a></li>
+                    <li><a href="index.html#Growth">Growth Story</a></li>
+                    <li><a href="index.html#lookingahead">Looking Ahead</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Services<span class="dropdown-icon">▼</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="cctv.html">CCTV Installation</a></li>
+                    <li><a href="car.html">Car Tracking</a></li>
+                    <li><a href="speed.html">Speed Limit Installation</a></li>
+                    <li><a href="internet.html">Internet Services (ISP)</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Contact<span class="dropdown-icon">▼</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">WhatsApp</a></li>
+                    <li><a href="#">Telegram</a></li>
+                </ul>
+            </li>
         </ul>
+
     </nav>
 
     <section id="home">
-        <h2 id="home1">Welcome to Our Website!</h2>
-        <p>Sontech Solutions is a reputable company specializing in the importation of cutting-edge tech devices.
+        <h2 class="heads" id="home1">Welcome to Our Website!</h2>
+        <p class="paragraph">Welcome to Sonitech Solutions, where innovation meets reliability. Our commitment is not
+            just to technology;
+            it's to you.
+            As our valued client, your satisfaction is our priority. Step into a world of cutting-edge solutions,
+            where your needs shape our services. Thank you for choosing Sonitech, where trust and technology converge
+            seamlessly.</p>
+        <p class="paragraph">Sontech Solutions is a reputable company specializing in the importation of cutting-edge
+            tech devices.
             With a commitment to delivering quality and authenticity, the company has established itself as a
             trusted partner in the tech industry.<br> Sontech Solutions prioritizes customer trust by ensuring that the
             devices it provides meet high standards, fostering a strong and reliable relationship with its clients.
@@ -40,34 +71,52 @@
     </section>
 
     <section id="about">
-        <h2 id="h22">About Us</h2>
+        <h2 class="heads" id="h22">About Us</h2>
         <main>
-            <p><strong>Background:</strong><br> Sontech Solutions emerged onto the tech importation scene with a vision
-                to
-                redefine the standards of excellence in the industry. Founded 2012, the company has
-                swiftly evolved into a reputable player in the market, specializing in the importation of cutting-edge
-                tech devices. Its journey is marked by a commitment to delivering quality, authenticity, and building
-                enduring relationships with clients.</p>
-            <hr>
-
-            <p><strong>Growth Story:</strong><br> From its humble beginnings, Sontech Solutions embarked on a path of
-                continuous innovation and customer-centricity. The company strategically navigated the ever-evolving
-                tech landscape, identifying market trends and adapting to technological advancements. Through strategic
-                partnerships with leading manufacturers and a focus on product quality, Sontech Solutions positioned
-                itself as a go-to source for top-tier tech devices.</p>
-            <hr>
-
+            <section id="background">
+                <p class="paragraph"><strong>Background:</strong><br> Sontech Solutions emerged onto the tech
+                    importation
+                    scene with a vision
+                    to
+                    redefine the standards of excellence in the industry. Founded 2012, the company has
+                    swiftly evolved into a reputable player in the market, specializing in the importation of
+                    cutting-edge
+                    tech devices. Its journey is marked by a commitment to delivering quality, authenticity, and
+                    building
+                    enduring relationships with clients.</p>
+                <hr>
+            </section>
+            <section id="Growth">
+                <p class="paragraph"><strong>Growth Story:</strong><br> From its humble beginnings, Sontech
+                    Solutions
+                    embarked on a path of
+                    continuous innovation and customer-centricity. The company strategically navigated the
+                    ever-evolving
+                    tech landscape, identifying market trends and adapting to technological advancements. Through
+                    strategic
+                    partnerships with leading manufacturers and a focus on product quality, Sontech Solutions
+                    positioned
+                    itself as a go-to source for top-tier tech devices.</p>
+                <hr>
+            </section>
             <!-- ... Other paragraphs ... -->
-
-            <p><strong>Looking Ahead:</strong><br> As Sontech Solutions continues to evolve, the company remains
-                dedicated
-                to authenticity, innovation, and client satisfaction. With a solid foundation built on trust and a
-                proven track record of overcoming challenges, Sontech Solutions is poised to navigate the future of the
-                tech industry, consistently providing top-tier devices and maintaining its status as a reliable source
-                for cutting-edge technology.</p>
-            <hr>
+            <section id="lookingahead">
+                <p class="paragraph"><strong>Looking Ahead:</strong><br> As Sontech Solutions continues to
+                    evolve, the
+                    company remains
+                    dedicated
+                    to authenticity, innovation, and client satisfaction. With a solid foundation built on trust
+                    and a
+                    proven track record of overcoming challenges, Sontech Solutions is poised to navigate the
+                    future of
+                    the
+                    tech industry, consistently providing top-tier devices and maintaining its status as a
+                    reliable
+                    source
+                    for cutting-edge technology.</p>
+                <hr>
         </main>
-        <p>Provide information about your company and its mission.</p>
+
     </section>
 
     <section id="services">
@@ -75,37 +124,67 @@
         <div id="services">
             <p>
             <div>
-                <div id="t1">Sonitech Services: A Comprehensive Technological Portfolio</div>
-                <hr>
-                Sonitech Services is a dynamic and multifaceted technology company that excels in providing a range of
-                cutting-edge solutions to meet modern demands. One of their key offerings is CCTV installation, where
-                they bring state-of-the-art surveillance systems to businesses and residential spaces. With an emphasis
-                on security and peace of mind, Sonitech ensures the seamless integration of CCTV technology, offering
-                clients advanced monitoring capabilities to safeguard their premises.
-                <hr>
-                In addition to surveillance solutions, Sonitech is at the forefront of vehicle tracking technology. The
-                company specializes in car tracking services, offering businesses and individuals the ability to monitor
-                and manage their fleets efficiently. From real-time location tracking to comprehensive reporting,
-                Sonitech's car tracking services contribute to enhanced fleet management, security, and overall
-                operational efficiency.
-                <hr>
-                Furthermore, Sonitech Services extends its technological prowess to include speed limit installation
-                services. This innovative offering provides an additional layer of safety on the roads, ensuring that
-                vehicles adhere to predetermined speed limits. This not only promotes road safety but also addresses
-                concerns related to traffic management and accident prevention.
-                <hr>
-                Complementing its hardware-focused services, Sonitech is a reliable Internet Service Provider (ISP),
-                delivering high-speed and reliable internet connectivity. Whether for businesses requiring a robust
-                online presence or individuals seeking seamless connectivity, Sonitech's ISP services cater to a diverse
-                range of needs. With a commitment to technological excellence, Sonitech Services continues to evolve,
-                meeting the ever-growing demands of the digital era.
+                <div class="paragraph" id="t1">Sonitech Services: A Comprehensive Technological Portfolio</div>
+                <div>
+                    <hr>
+                    <p class="paragraph">
+                        Sonitech Services is a dynamic and multifaceted technology company that excels in providing a
+                        range of
+                        cutting-edge solutions to meet modern demands. One of their key offerings is <strong>CCTV
+                            installation</strong>, where
+                        they bring state-of-the-art surveillance systems to businesses and residential spaces. With an
+                        emphasis
+                        on security and peace of mind, Sonitech ensures the seamless integration of CCTV technology,
+                        offering
+                        clients advanced monitoring capabilities to safeguard their premises.
+                        <hr>
+                    <P class="paragraph">
+                        In addition to surveillance solutions, Sonitech is at the forefront of <strong>vehicle tracking
+                            technology.</strong> The
+                        company specializes in car tracking services, offering businesses and individuals the ability to
+                        monitor
+                        and manage their fleets efficiently. From real-time location tracking to comprehensive
+                        reporting,
+                        Sonitech's car tracking services contribute to enhanced fleet management, security, and overall
+                        operational efficiency.
+                        <hr>
+                    </P>
+                    <p class="paragraph">
+                        Furthermore, Sonitech Services extends its technological prowess to include <strong>speed
+                            governor
+                            installation
+                            services.</strong> This innovative offering provides an additional layer of safety on the
+                        roads,
+                        ensuring that
+                        vehicles adhere to predetermined speed limits. This not only promotes road safety but also
+                        addresses
+                        concerns related to traffic management and accident prevention.
+                        <hr>
+                    </p>
+                    <p class="paragraph">
+                        Complementing its hardware-focused services, Sonitech is a reliable <strong>Internet Service
+                            Provider
+                            (ISP),</strong>
+                        delivering high-speed and reliable internet connectivity. Whether for businesses requiring a
+                        robust
+                        online presence or individuals seeking seamless connectivity, Sonitech's ISP services cater to a
+                        diverse
+                        range of needs. With a commitment to technological excellence, Sonitech Services continues to
+                        evolve,
+                        meeting the ever-growing demands of the digital era.</p>
+                    </p>
+                    </p>
+                </div>
             </div>
+            <a href="/cctv.html" class="service-button">CCTV Installation</a>
+            <a href="#car-tracking" class="service-button">Car Tracking</a>
+            <a href="#speed-limit" class="service-button">Speed Limit Installation</a>
+            <a href="#isp" class="service-button">Internet Services (ISP)</a>
 
-            </p>
         </div>
     </section>
 
-    <section id="contact">
+    <section class="heads" id="contact">
         <h2 id="t2">Contact Us</h2>
         <p>Include a contact form or provide contact details for inquiries.</p>
     </section>
@@ -114,7 +193,7 @@
         <p>&copy; 2024 Sontech Solutions. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
