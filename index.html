@@ -41,7 +41,7 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#">Contact<span class="dropdown-icon">▼</span></a>
+                <a href="#contact">Contact<span class="dropdown-icon">▼</span></a>
                 <ul class="dropdown-menu">
                     <li><a href="#">Instagram</a></li>
                     <li><a href="#">Twitter</a></li>
@@ -55,7 +55,8 @@
 
     <section id="home">
         <h2 class="heads" id="home1">Welcome to Our Website!</h2>
-        <p class="paragraph">Welcome to Sonitech Solutions, where innovation meets reliability. Our commitment is not
+        <p class="paragraph">Welcome to <strong> Sonitech Solutions</strong>, where innovation meets reliability. Our
+            commitment is not
             just to technology;
             it's to you.
             As our valued client, your satisfaction is our priority. Step into a world of cutting-edge solutions,
@@ -185,8 +186,33 @@
     </section>
 
     <section class="heads" id="contact">
-        <h2 id="t2">Contact Us</h2>
-        <p>Include a contact form or provide contact details for inquiries.</p>
+        <h2 id="t2">Contact Me</h2>
+        <div class="container">
+            <h1>Contact Me</h1>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </section>
 
     <footer>

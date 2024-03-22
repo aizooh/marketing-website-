@@ -12,6 +12,34 @@ header, nav, section, footer {
     background-color: #f1f1f1;
     overflow: hidden;
   }
+  .nav-container {
+    text-align: center; 
+  }
+  
+  .nav-tabs {
+    list-style-type: none; 
+        padding: 0; 
+    margin: 0; 
+  }
+  
+  .nav-tabs li {
+    display: inline-block; 
+    margin-right: 10px; 
+  }
+  
+  .nav-tabs li a {
+    text-decoration: none; 
+    padding: 5px 10px;
+  }
+  
+  .nav-tabs li a:hover,
+  .nav-tabs li a.current-page {
+    background-color: #333; 
+    color: #fff;  }
+  
+  nav{
+    text-align: center;
+  }
   #head{
     position: relative;
     align-items: center;
@@ -21,6 +49,7 @@ header, nav, section, footer {
     
   li {
     float: left;
+    text-align: center;
   }
   
   a {
@@ -95,7 +124,7 @@ img {
 }
 hr {
   border: .5rem solid #05AFF2; 
-  margin: 20px 0; 
+  margin: 20px 0; }
 p {
   line-height: 1.6;
   font-size: 1.2rem;
@@ -104,22 +133,44 @@ p {
 
 table {
   width: 80%;
+  text-align: center;
   margin: 20px auto;
   border-collapse: collapse;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: block; 
+  border: 1px solid black;
+  /* margin: 0 auto; */
 }
+.table-container {
+  text-align: center;
+  margin: 0 auto; 
+}
+
+.centered-table {
+  width: 80%; 
+  border-collapse: collapse; 
+}
+
+.centered-table th,
+.centered-table td {
+  border: 1px solid black; 
+    padding: 10px; 
+}
+
 
 th, td {
   padding: 15px;
   text-align: center;
   border-bottom: 1px solid #ddd;
+  border: 1px solid black;
 }
 
 th {
   background-color: #007BFF;
   color: #fff;
+  border: 1px solid black;
 }
 
 tr:hover {
@@ -164,7 +215,7 @@ button {
   cursor: pointer;
 }
 
-result {
+.result {
   font-size: 18px;
   font-weight: bold;
   margin-top: 20px;
