@@ -16,6 +16,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 function goToContacts() {
-    
-    window.location.href = 'contacts.html';
-}
+    window.location.href = "index.html#contact";
+  }

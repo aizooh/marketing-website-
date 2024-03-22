@@ -15,3 +15,14 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+function openGmail() {
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const subject = document.getElementById("subject").value;
+    const message = document.getElementById("message").value;
+
+    const mailtoLink = `mailto:?to=recipient@gmail.com&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`)}`;
+
+    window.location.href = mailtoLink;
+  }

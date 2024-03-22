@@ -147,9 +147,6 @@ padding: 1.2rem;
 .dropdown:hover .dropdown-icon {
     display: inline-block;
 }
-body {
-  font-family: Arial, sans-serif;
-}
 
 .container {
   max-width: 600px;
